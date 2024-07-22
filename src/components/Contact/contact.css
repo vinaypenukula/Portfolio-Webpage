@@ -1,0 +1,129 @@
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: #191f36;
+}
+
+.submitBtn{
+    background: #53B2F4;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+}
+
+.submitBtn:hover{
+    transform: scale(1.02);
+    text-shadow:0 0 1rem #53B2F4 ;
+}
+
+.contact{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contactTitle{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 3rem;
+    margin-bottom: 0rem;
+}
+
+.contactIcons  p i{
+    color: #53B2F4;
+    margin-right: 15px;
+    font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sclIcons a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 30px;
+    display: inline-block;
+    transition: 0.5s ease;
+    
+}
+
+.sclIcons{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+
+
+.contactIcons{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contactIcons a{
+    color: #53B2F4;
+    text-decoration: none;
+    
+}
+
+.copyRight{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #191f36;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.sclIcons a i:hover{
+    transform:scale(1.2);
+    text-shadow:0 0 1rem #53B2F4 ;
+}
+
+.cont{
+    color: #53B2F4;
+}
+
+.name:focus, .email:focus, .msg:focus {
+    
+     outline: #53B2F4;
+}
+
+.contactIcons a:hover, .phoneText:hover {
+    color: #53B2F4;
+}
+
+.contactIcons a:hover, .emailText:hover {
+    color: #53B2F4;
+}
+

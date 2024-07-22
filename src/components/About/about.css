@@ -1,0 +1,97 @@
+.about {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.aboutTitle {
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.aboutDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.titles {
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.bul {
+    color: #53B2F4;
+}
+
+.me {
+    color: #53B2F4;
+}
+
+.links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    position: relative;
+}
+
+.links:hover, .links.active {
+    color: #53B2F4;
+    /* Add this to highlight the active tab */
+}
+
+.contents ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contents ul li span {
+    color: #53B2F4;
+    font-size: small;
+}
+
+.contents {
+    display: none;
+}
+
+.contents.active-con {
+    display: block;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin: 20px auto;
+}
+
+.par {
+    display: flex;
+    margin: 20px auto;
+}
+
+.bx-chevrons-right {
+    font-size: 1.3rem;
+    margin-top: 0.2rem;
+    margin-right: 0.1rem;
+}
+
+.cer {
+    margin-top: 0.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .titles {
+        flex-direction: column;
+    }
+    .links {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
