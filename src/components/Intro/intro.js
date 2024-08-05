@@ -1,7 +1,7 @@
 import React from "react";
 import './intro.css';
 import bg from '../../assets/home-right.webp';
-import pk from '../../assets/pk.pdf'
+import pk from '../../assets/vinay res.pdf';
 
 const Intro = () => {
     return(

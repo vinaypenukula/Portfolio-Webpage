@@ -44,7 +44,7 @@ const Project = () => {
                     <img src={portfolio} alt="proj4" className="projectImg2" /><br />
                     <h3>Portfolio Webpage</h3>
                     <p>Welcome to my portfolio! This site showcases my work, skills, and projects using modern web technologies.</p>
-                    <a href="https://github.com/vinaypenukula/To-do-list-redux" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/vinaypenukula/Portfolio-Webpage" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="github-icon" />
                     </a>
                 </div>
